@@ -1,0 +1,37 @@
+{
+  "name": "vocab-jsonld-context",
+  "version": "1.0.0",
+  "description": "given vocab, returns JSON-LD context",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/openappjs/vocab-jsonld-context"
+  },
+  "keywords": [
+    "openappjs",
+    "vocab",
+    "linked data",
+    "jsonld",
+    "context",
+    "ontology",
+    "vocabulary",
+    "json-ld"
+  ],
+  "author": "ahdinosaur",
+  "license": "AGPLv3",
+  "bugs": {
+    "url": "https://github.com/openappjs/vocab-jsonld-context/issues"
+  },
+  "homepage": "https://github.com/openappjs/vocab-jsonld-context",
+  "dependencies": {
+    "schema-jsonld-context": "^2.0.0",
+    "traverse": "^0.6.6",
+    "xtend": "^4.0.0"
+  },
+  "devDependencies": {
+    "tape": "^3.0.0"
+  }
+}
